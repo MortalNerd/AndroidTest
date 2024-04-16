@@ -13,7 +13,27 @@
         android:theme="@style/Theme.RecruitmentApp"
         tools:targetApi="31">
         <activity
+            android:name=".view.HomePageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.FindPWActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".view.RegisterForApplicantActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.RegisterForHRActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.RegisterForBOSSActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.SelectRegistrationActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
+            android:launchMode="singleTask"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
